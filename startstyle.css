@@ -1,0 +1,57 @@
+button{
+    background-color: black;
+    color:white;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 150px;
+    border-radius: 6px;
+    transition: all 0,2s ease;
+    background: rgba(134, 0, 0);
+}
+button:active{
+    transform: scale(0.96);
+}
+.low-bg-image{
+    background-image: url(csta.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: .8;
+    position: absolute;
+    inset: 0;
+}
+img{
+    position: relative;
+    height: auto;
+    left: 0px;
+    width: 150px;
+    text-align: center;
+}
+.container{
+    max-width: 500px;
+    margin:0 auto;
+    padding:100px;
+    box-shadow:rgb(85, 85, 87, 0.5) 0px 7px 29px 0px;
+    background: rgba(255, 255, 255, 0.63) ;
+    border-radius: 5px;
+    height:600px;
+    opacity: .99;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.h1{
+    font-size: 100;
+}
+

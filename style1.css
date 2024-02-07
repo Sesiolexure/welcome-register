@@ -1,0 +1,49 @@
+.low-bg-image{
+    background-image: url(csta.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: .8;
+    position: absolute;
+    inset: 0;
+}
+.container{
+    max-width: 450px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow:rgb(85, 85, 87, 0.5) 0px 7px 29px 0px;
+    background: rgba(240, 231, 231, 0.63) ;
+    border-radius: 10px;
+    height:auto;
+    align-items: center;
+    justify-content: center;
+    opacity: .99;
+    text-align: center;
+
+}
+.form-group{
+    margin-bottom: 30px;
+}
+button{
+    background-color: black; 
+    color:white;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: rgba(134, 0, 0);
+    cursor: pointer;
+    overflow: hidden;
+    width: 350px;
+    border-radius: 6px;
+    transition: all 0,2s ease;
+}
+button:active{
+    transform: scale(0.96);
+}
+
+
+
